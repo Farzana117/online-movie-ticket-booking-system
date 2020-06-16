@@ -1,0 +1,222 @@
+.header{
+background-color:black;
+color:#fff;
+border-color: #080808;
+min-height: 80px;
+border: 1px solid transparent;
+width:100%;
+}
+
+
+.inner-header{
+
+width:80%;
+margin:auto;
+
+}
+
+.logo{
+float:left;
+height:70px;
+padding:15px 0 2px;
+font-size:50px;
+font-weight:bold;
+color:white;
+}
+
+.logo:hover{
+background-color:white;
+color:#000;
+text-decoration:none;
+box-sizing:border-box;
+
+}
+
+
+
+.header-link1{
+float:right;
+font-size:14px;
+height:50px;
+padding:15px 15px;
+font-size:30px;
+font-weight:bold;
+color:white;
+}
+
+
+
+
+.header-link2{
+float:right;
+font-size:14px;
+height:50px;
+padding:15px 15px;
+font-size:30px;
+font-weight:bold;
+color:white;
+}
+
+.header-link1:hover{
+background-color:white;
+color:#000;
+text-decoration:none;
+
+}
+
+
+.header-link2:hover{
+background-color:white;
+color:#000;
+text-decoration:none;
+
+}
+
+
+
+a:link{
+text-decoration:none;
+}
+a:hover{
+text-decoration: none;
+opacity:0.8;
+}
+
+.header2{
+display:grid;
+grid-template-areas:
+'h1 h2 h3';
+grid-gap:20px;
+padding:10px;
+
+}
+
+.t1{ max-width:1000px;
+grid-area:h1;}
+.t2{grid-area:h2;
+    }
+.t3{grid-area:h3;}
+
+
+.t1{
+background-color:black;
+text-align:center;
+padding:25px;
+font-size:25px;
+font-weight:medium;}
+
+.t2{
+background-color:black;
+text-align:center;
+padding:25px;
+font-size:25px;
+font-weight:medium;}
+
+.t3{
+background-color:black;
+text-align:center;
+padding:25px;
+font-size:25px;
+font-weight:medium;}
+
+.footer{
+background-color:#000;
+color:#fff;
+font-size:14px;
+}
+
+
+
+
+.drop-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 290px;
+    height:300px;
+    overflow:scroll;
+    z-index: 1;
+    margin-left:0px;
+
+}
+
+
+.drop-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+font-size:20px;
+}
+
+.drop-content a:hover {
+    background-color: #ddd;
+}
+
+.t2:hover .drop-content{
+    display: block;
+    margin-top:20px;
+}
+
+.t1:hover .drop-content{
+    display: block;
+    margin-top:20px;
+    
+}
+
+    
+
+
+.t3:hover .drop-content{
+    display: block;
+    margin-top:20px;
+}
+
+
+.theatre {
+    font-size: 25px;    
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+table{
+border-collapse:collapse;
+height:500px;
+width:1000px;
+padding:10px;
+position:relative;
+margin-left:10%;
+top:10%;
+}
+
+#t1{
+display:block;
+}
+
+#t2{
+display:none;
+}
+
+#t3{
+display:none;
+}
+
+#t4{
+display:none;
+}
+#t5{
+display:none;
+}
+#t6{
+display:none;
+}
+
+#t7{
+display:none;
+}

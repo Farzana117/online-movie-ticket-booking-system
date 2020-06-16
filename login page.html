@@ -1,0 +1,172 @@
+<!doctype html>
+<html>
+<head>
+<title>Registration form-Movie tickets</title>
+<style>
+body
+{
+background-image:url(tick.jpg);
+background-repeat:no-repeat;
+background-size:cover;
+}
+#p
+{
+font-family:arial;
+font-size:20px;
+color:blue;
+}
+#p8
+{
+font-family:arial;
+font-size:70px;
+color:white;
+background-color:purple;
+}
+#p1
+{
+font-family:arial;
+color:red;
+}
+#p2
+{
+color:red;
+font-size:40px;
+font-family:arial;
+}
+#p3
+{
+background-color:yellow;
+}
+#p4
+{
+color:red;
+font-size:30px;
+font-family:arial;
+}
+#p5
+{
+font-size:20px;
+color:black;
+font-family:Arial;
+}
+#p6
+{
+font-size:25px;
+color:purple;
+font-family:Georgia;
+}
+#p9
+{
+font-size:30px;
+color:white;
+background-color:purple;
+font-family:Arial;
+
+}
+</style>
+</head>
+<body>
+<script>
+function number1()
+{
+var x=document.getElementById("sai1").value;
+var x1=Number(document.getElementById("sai2").value);
+if(isNaN(x))
+{
+alert("You have entered wrong contact number");
+}
+else if(x1==0)
+{
+alert("You haven't enter the complete details");
+}
+else
+{
+alert("Successfully created account!! Login Now!!");
+window.location.href="login.html";
+}
+}
+</script>
+<div id="p8">MOVIES NOW</div>
+<div id="p9"><a href="life.html"style="color:white">Home</a></div>
+<table id="p3" align="center">
+<tr>
+<th id="p4"colspan="2">Registration Form</th>
+</tr>
+<tr></tr>
+<tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<td id="p"><strong>First Name</strong></td>
+<td id="p"><strong>Last Name</strong></td>
+</tr>
+<tr>
+<td><input type="text" name="First name" placeholder="First name"></td>
+<td><input type="text" name="Last name" placeholder="Last name"></td>
+</tr>
+<tr>
+<td id="p"><strong>UserName</strong></td>
+</tr>
+<tr>
+<td colspan="2"><input type="text" name="Username" placeholder="@movies.com"></td>
+</tr>
+<tr>su
+<td id="p"><strong>Password</strong></td>
+</tr>
+<tr>
+<td colspan="2"><input type="password" id="sai4"name="password" placeholder="password"></td>
+</tr>
+<tr >
+<td id="p1"colspan="2">[note:The password should contains<br>min-char(6) and max-char(15).include @,#,1,?,etc..]</td>
+</tr>
+<tr>
+<td id="p"><strong>Re-enter Password</strong></td>
+</tr>
+<tr>
+<td colspan="2"><input type="password" id="sai3" name="re-password" placeholder="Re-enter password"></td>
+</tr>
+<tr>
+<td id="p1"colspan="2">*Make sure that you have entered the same password</td>
+</tr>
+<tr>
+<td id="p"><strong>Enter Email i.d</strong></td>
+</tr>
+<tr>
+<td colspan="2"><input type="text" id="sai2"name="id" placeholder="@gmail.com"></td>
+</tr>
+<tr>
+<td id="p"><strong>Gender</strong><td>
+</tr>
+<tr>
+<td colspan="2"><input type="radio" name="gender" value="Male">Male
+<input type="radio" name="gender" value="Female">Female<input type="radio" name="gender" value="others">Others</td>
+</tr>
+<tr>
+<td id="p"><strong>Contact Number</strong></td>
+</tr>
+<tr>
+<td colspan="2"><select name="phonecode">
+<option value="a1" selected>+91(India)</option>
+<option value="a1">+1(USA)</option>
+<option value="a1">+44(Uk)</option>
+<option value="a1">+86(China)</option>
+<option value="a1">+45(Denmark)</option>
+<option value="a1">+81(Japan)</option>
+<option value="a1">+82(Korea)</option>
+<option value="a1">+64(Newzland)</option>
+<option value="a1">+65(Singapore)</option>
+<input type="text" name="number" id="sai1" placeholder="Contact number" maxlength="10"></td>
+</tr>
+<tr>
+<th id="p"><input type="submit" onclick="number1()"></th>
+<td id="p"><input type="reset"></td>
+</tr>
+</table>
+<hr>
+<div id="p6"><strong>For any information :</strong>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<strong>Contact :</strong></div>
+<div id="p5">Contact us : +91 900000000&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspMovies Now private Limited</div>
+<div id="p5">toll free numebr : 1800 5678 8976&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp27,Dr Ranga Road ,Benz-circle</div>
+<div id="p6"><strong>About :</strong>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspVijayawada</div>
+<div id="p5">Terms and conditions&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSupport@moviesnow.in</div>
+<div id="p5">Privacy Policy&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp+91 8096565789</div>
+<div id="p5">Purchase Policy</div>
+<div id=p6>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&copy copyright 2018 MoviesNow Private Limited</div>
+</body>
+</html>

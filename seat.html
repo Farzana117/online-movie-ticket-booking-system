@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="store1.css" rel="stylesheet" type"css">
+</head>
+<body>
+<div class="header">
+<div class="inner-header">
+<a href="life.html">
+<div class="logo">MoviesNow</div></a>
+<a href="login page.html">
+<div class="header-link1">Sign up</div></a>
+<a href="login.html">
+<div class="header-link2">Login</div></a>
+</div>
+</div>
+<br>
+<br>
+<pre><h1 style="text-align:center;font-size:40px;">SELECT  YOUR   SEATS</h1></pre>
+<table border="5">
+<tr>
+<td colspan="10" style="color:white;background-color:darkviolet; "><h2>Silver</h2></td>
+</tr>
+<tr>
+<td  style="background-color:grey;"><button type="button" id="unsel">A1</td>
+
+<td style="background-color:grey"><button type="button" id="unsel">A2</td>
+
+<td>
+<button type="button" class="sel" id="A3" value="1" onclick="select('A3')">A3</td></button>
+
+<td>
+<button type="button"  class="sel" id="A4" value="2" onclick="select('A4')">A4</td></button>
+
+<td style="border:hidden;"></td>
+<td style="border:hidden;"></td>
+
+<td>
+<button type="button" class="sel" id="A5" value="3" onclick="select('A5')"">A5</td>
+
+<td style="background-color:grey"><button type="button" id="unsel">A6</td>
+
+<td style="background-color:grey"><button type="button" id="unsel">A7</td>
+
+<td>
+<button type="button" class="sel" id="A8" value="4" onclick="select('A8')">A8</td>
+</tr>
+<tr>
+<td>
+<button type="button" class="sel" id="B1" value="5" onclick="select('B1')">B1</td>
+<td style="background-color:grey"><button type="button" id="unsel">B2</td>
+<td style="background-color:grey"><button type="button" id="unsel">B3</td>
+<td>
+<button type="button" class="sel" id="B4" value="6" onclick="select('B4')">B4</td>
+<td style="border:hidden;"></td>
+<td style="border:hidden;"></td>
+<td>
+<button type="button" class="sel" id="B5" value="7" onclick="select('B5')">B5</td>
+<td>
+<button type="button" class="sel" id="B6" value="8" onclick="select('B6')">B6</td>
+<td>
+<button type="button" class="sel" id="B7" value="9" onclick="select('B7')">B7</td>
+<td>
+<button type="button" class="sel" id="B8" value="10" onclick="select('B8')">B8</td>
+</tr>
+<tr>
+<td style="background-color:grey">
+<button type="button" id="unsel">C1</td>
+<td style="background-color:grey">
+<button type="button" id="unsel">C2</td>
+<td style="background-color:grey">
+<button type="button" id="unsel">C3</td>
+<td>
+<button type="button" class="sel" id="C4" value="11" onclick="select('C4')">C4</td>
+<td style="border:hidden;"></td>
+<td style="border:hidden;"></td>
+<td style="background-color:grey">
+<button type="button" id="unsel">C5</td>
+<td style="background-color:grey">
+<button type="button" id="unsel">C6</td>
+<td style="background-color:grey">
+<button type="button" id="unsel">C7</td>
+<td style="background-color:grey">
+<button type="button" id="unsel">C8</td>
+</tr>
+<tr>
+<td colspan="10" style="border:hidden;"></td>
+<td colspan="10" style="border:hidden;"></td>
+</tr>
+<tr>
+<td colspan="10" rowspan="2" style="color:white;background-color:darkviolet; "><h2>Gold</h2></td>
+</tr>
+<tr>
+<td colspan="10" style="border:hidden;"></td>
+</tr>
+<tr>
+<td>
+<button type="button" class="sel1" id="D1" value="1" onclick="select1('D1')">D1</td>
+<td>
+<button type="button" class="sel1" id="D2" value="2" onclick="select1('D2')">D2</td>
+<td>
+<button type="button" class="sel1" id="D3" value="3" onclick="select1('D3')"">D3</td>
+<td>
+<button type="button" class="sel1" id="D4" value="4" onclick="select1('D4')">D4</td>
+<td style="border:hidden;"></td>
+<td style="border:hidden;"></td>
+<td style="background-color:grey">
+<button type="button" id="unsel">D5</td>
+<td style="background-color:grey">
+<button type="button" id="unsel">D6</td>
+<td style="background-color:grey">
+<button type="button" id="unsel">D7</td>
+<td style="background-color:grey">
+<button type="button" id="unsel">D8</td>
+</tr>
+<tr>
+<td style="background-color:grey">
+<button type="button" id="unsel">E1</td>
+<td style="background-color:grey">
+<button type="button" id="unsel">E2</td>
+<td style="background-color:grey">
+<button type="button" id="unsel">E3</td>
+<td >
+<button type="button" class="sel1" id="E4" value="5" onclick="select1('E4')">E4</td>
+<td style="border:hidden;"></td>
+<td style="border:hidden;"></td>
+<td style="background-color:grey">
+<button type="button" id="unsel">E5</td>
+<td style="background-color:grey">
+<button type="button" id="unsel">E6</td>
+<td style="background-color:grey">
+<button type="button" id="unsel">E7</td>
+<td >
+<button type="button" class="sel1" id="E8" value="6" onclick="select1('E8')">E8</td>
+</tr>
+<tr>
+<td colspan="10" style="border:hidden;"></td>
+<td colspan="10" style="border:hidden;"></td>
+</tr>
+<tr>
+<td colspan="10" rowspan="2" style="color:white;background-color:darkviolet; "><h2>Platinum</h2></td>
+</tr>
+<tr>
+<td colspan="10" style="border:hidden;"></td>
+</tr>
+<tr>
+<td style="background-color:grey">
+<button type="button" id="unsel">F1</td>
+<td style="background-color:grey">
+<button type="button" id="unsel">F2</td>
+<td style="background-color:grey">
+<button type="button" id="unsel">F3</td>
+<td style="background-color:grey">
+<button type="button" id="unsel">F4</td>
+<td>
+<button type="button" class="sel2" id="F5" value="1" onclick="select2('F5')">F5</td>
+<td>
+<button type="button" class="sel2" id="F6" value="2" onclick="select2('F6')">F6</td>
+<td style="background-color:grey">
+<button type="button" id="unsel">F7</td>
+<td><button type="button" class="sel2" id="F7" value="3" onclick="select2('F7')">F7</td>
+<td><button type="button" class="sel2" id="F8" value="4" onclick="select2('F8')">F8</td>
+<td><button type="button" class="sel2" id="F9" value="5" onclick="select2('F9')">F9</td>
+</tr>
+</table>
+<br>
+<br>
+<p class="aw"></p><p style="position:absolute;left:33%;">Occupied seats</div>
+<p class="aw2"></p><p style="position:absolute;left:53%;">Available seats</p>
+<br>
+<br>
+<br><br><br>
+<input type="submit" class="but" onclick="fun(j,l,n)">
+<br>
+<br>
+
+<br><br>
+<div class="footer">
+<div class="header">
+<p style="text-align:center"><h2>Copyright © Movies Now.
+All Rights Reserved | Contact Us:+91 900000000</h2>
+</div><div>
+
+
+
+
+
+
+<script>
+var i=0,j=0,k=0,l=0,m=0,n=0,t=0,p=0,q=0,r=0,s=0,u=0,v=0,w=0;
+var a=0,b=0,c=0,d=0,e=0,f=0,g=0,h=0,o=0,a1=0,b1=0,c1=0,d1=0,e1=0;
+function select(id1)
+{
+var x=document.getElementById(id1).value;
+var y=document.getElementById(id1);
+if(x==1)
+{
+ ++d;
+ if(d%2!=0)
+ {document.getElementById(id1).style.backgroundColor="green";
+ j=++k;}
+ else{document.getElementById(id1).style.backgroundColor="white";
+ j=--k;}
+}
+
+if(x==2)
+{++e;
+ if(e%2!=0)
+ {document.getElementById(id1).style.backgroundColor="green";
+ j=++k;}
+ else{document.getElementById(id1).style.backgroundColor="white";
+ j=--k;}
+}
+
+if(x==3)
+{++f;
+ if(f%2!=0)
+ {document.getElementById(id1).style.backgroundColor="green";
+ j=++k;}
+ else{document.getElementById(id1).style.backgroundColor="white";
+ j=--k;}
+}
+
+if(x==4)
+{++g;
+ if(g%2!=0)
+ {document.getElementById(id1).style.backgroundColor="green";
+ j=++k;}
+ else{document.getElementById(id1).style.backgroundColor="white";
+ j=--k;}
+}
+
+if(x==5)
+{++h;
+ if(h%2!=0)
+ {document.getElementById(id1).style.backgroundColor="green";
+ j=++k;}
+ else{document.getElementById(id1).style.backgroundColor="white";
+ j=--k;}
+}
+
+if(x==6)
+{++o;
+ if(o%2!=0)
+ {document.getElementById(id1).style.backgroundColor="green";
+ j=++k;}
+ else{document.getElementById(id1).style.backgroundColor="white";
+ j=--k;}
+}
+
+if(x==7)
+{++a1;
+ if(a1%2!=0)
+ {document.getElementById(id1).style.backgroundColor="green";
+ j=++k;}
+ else{document.getElementById(id1).style.backgroundColor="white";
+ j=--k;}
+}
+
+if(x==8)
+{++b1;
+ if(b1%2!=0)
+ {document.getElementById(id1).style.backgroundColor="green";
+ j=++k;}
+ else{document.getElementById(id1).style.backgroundColor="white";
+ j=--k;}
+}
+
+if(x==9)
+{++c1;
+ if(c1%2!=0)
+ {document.getElementById(id1).style.backgroundColor="green";
+ j=++k;}
+ else{document.getElementById(id1).style.backgroundColor="white";
+ j=--k;}
+}
+
+if(x==10)
+{++d1;
+ if(d1%2!=0)
+ {document.getElementById(id1).style.backgroundColor="green";
+ j=++k;}
+ else{document.getElementById(id1).style.backgroundColor="white";
+ j=--k;}
+}
+
+if(x==11)
+{++e1;
+ if(e1%2!=0)
+ {document.getElementById(id1).style.backgroundColor="green";
+ j=++k;}
+ else{document.getElementById(id1).style.backgroundColor="white";
+ j=--k;}
+}
+}
+
+function select1(id1)
+{
+var x=document.getElementById(id1).value;
+var y=document.getElementById(id1);
+if(x==1)
+{++u;
+ if(u%2!=0)
+ {document.getElementById(id1).style.backgroundColor="green";
+ l=++i;}
+ else{document.getElementById(id1).style.backgroundColor="white";
+ l=--i;}
+}
+
+if(x==2)
+{++v;
+ if(v%2!=0)
+ {document.getElementById(id1).style.backgroundColor="green";
+ l=++i;}
+ else{document.getElementById(id1).style.backgroundColor="white";
+ l=--i;}
+}
+
+if(x==3)
+{++w;
+if(w%2!=0)
+ {document.getElementById(id1).style.backgroundColor="green";
+ l=++i;}
+ else{document.getElementById(id1).style.backgroundColor="white";
+ l=--i;}
+}
+
+if(x==4)
+{++a;
+ if(a%2!=0)
+ {document.getElementById(id1).style.backgroundColor="green";
+ l=++i;}
+ else{document.getElementById(id1).style.backgroundColor="white";
+ l=--i;}
+}
+
+
+if(x==5)
+{++b;
+ if(b%2!=0)
+ {document.getElementById(id1).style.backgroundColor="green";
+ l=++i;}
+ else{document.getElementById(id1).style.backgroundColor="white";
+ l=--i;}
+}
+
+if(x==6)
+{++c;
+ if(c%2!=0)
+ {document.getElementById(id1).style.backgroundColor="green";
+ l=++i;}
+ else{document.getElementById(id1).style.backgroundColor="white";
+ l=--i;}
+}
+
+}
+
+function select2(id1)
+{
+var x=document.getElementById(id1).value;
+var y=document.getElementById(id1);
+
+if(x==1)
+{++t;
+if(t%2!=0)
+{document.getElementById(id1).style.backgroundColor="green";
+n=++m;}
+else{document.getElementById(id1).style.backgroundColor="white";
+n=--m;}
+}
+
+if(x==2)
+{++p;
+if(p%2!=0)
+{document.getElementById(id1).style.backgroundColor="green";
+n=++m;}
+else{document.getElementById(id1).style.backgroundColor="white";
+n=--m;}
+}
+
+if(x==3)
+{++q;
+if(q%2!=0)
+{document.getElementById(id1).style.backgroundColor="green";
+n=++m;}
+else{document.getElementById(id1).style.backgroundColor="white";
+n=--m;}
+}
+
+if(x==4)
+{++r;
+if(r%2!=0)
+{document.getElementById(id1).style.backgroundColor="green";
+n=++m;}
+else{document.getElementById(id1).style.backgroundColor="white";
+n=--m;}
+}
+
+if(x==5)
+{++s;
+if(s%2!=0)
+{document.getElementById(id1).style.backgroundColor="green";
+n=++m;}
+else{document.getElementById(id1).style.backgroundColor="white";
+n=--m;}
+}
+
+}
+
+function fun(j,l,n)
+{
+var p=confirm("You have selected "+(j)+ " seats in SILVER"+
+"\n"+"You have selected "+(l)+ " seats in GOLD"+"\n"+
+"You have selected "+(n)+ " seats in PLATINUM"
+);
+if(p==true)
+{
+window.location.href = "life.html";
+}
+}
+</script>
+</body>
+</html>

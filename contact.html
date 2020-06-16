@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Contact Us</title>
+
+<link rel="stylesheet" href="contact.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+<style>
+#home{
+float:right;
+}
+</style>
+</head>
+
+<body>
+
+<h2>Contact Us</h2>
+
+
+<br>
+<h3 ><p id="home"><a href="life.html">Home</a></p></h3>
+<br>
+<div id="panel">
+<p id="script">Hi, there !</p>
+<p>Fill out the form to contact us.</p>
+</div>
+
+
+<div id="form">
+
+<form onsubmit="sub()" >
+<input type="text" placeholder="Enter Your Name" required>
+<br>
+
+<input type="email" placeholder="Enter Your Email Address" required>
+<br>
+
+<input type="text" placeholder="Enter Your Contact Number"  required>
+<br>
+
+<input type="text" placeholder="Address Line" required>
+<br>
+
+<textarea rows="10" cols="30" placeholder="Why do you want to contact us?" ></textarea>
+
+<input type="submit" ></form>
+</div>
+
+
+
+
+
+<script>
+
+function sub()
+{
+var p= confirm("Your feedback is successfully saved");
+if(p==true)
+{
+window.location.href = "life.html";
+}
+}
+</script>
+</body>
+
+</html>
